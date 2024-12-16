@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f5f5dc;
+    background-color: white;
     color: #333;
 }
 
@@ -58,13 +58,13 @@ body {
 .header-nav-bar-links li {
     padding-left: 20px;
     padding-right: 20px;
-    color: #f5f5dc;
+    color: white;
     font-size: 14px;
 }
 
 .header-nav-bar-links a {
     text-decoration: none;
-    color: #f5f5dc;
+    color: white;
 }
 
 .header-nav-bar-links a:hover {
@@ -87,7 +87,7 @@ body {
 .header-hamburger-menu-button div {
     width: 18px;
     height: 2px;
-    background-color: #f5f5dc;
+    background-color: white;
     margin: 3px 0;
     border-radius: 2px;
 }
@@ -117,7 +117,7 @@ body {
 
 .header-hamburger-menu li {
     padding: 10px;
-    color: #f5f5dc;
+    color: white;
     text-align: center;
     cursor: pointer;
     width: 100px;
@@ -133,7 +133,7 @@ body {
 }
 
 .header-hamburger-menu a {
-    color: #f5f5dc;
+    color: white;
     text-decoration: none;
 }
 
@@ -167,11 +167,80 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 0;
     margin: 0 auto;
     max-width: auto;
     border: 1px solid black;
 }
+
+.portrait-section,
+.about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.portrait-section {
+    align-items: center;
+}
+
+
+.name-and-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.portrait-photo img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.name-and-title h2 {
+    font-size: 44px;
+    font-weight: 300;
+    color: #111;
+}
+
+.name-and-title h3 {
+    font-size: 26px;
+    font-weight: lighter;
+    color: #555;
+}
+
+.content-left,
+.content-right,
+.content-center {
+    padding: 0 60px 60px 60px;
+}
+
+.content-left,
+.content-right {
+    max-width: 800px;
+}
+
+.content-right h4 {
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.content-right p {
+    padding-bottom: 20px;
+}
+
+.content-right h5 {
+    font-size: 18px;
+}
+
 
 /* FOOTER */
 footer {
@@ -185,7 +254,7 @@ footer {
     max-width: auto;
     border: 1px solid black;
     background-color: #333;
-    color: #f5f5f5;
+    color: white;
 }
 
 .footer-container ul {
@@ -194,7 +263,7 @@ footer {
 
 .footer-container a {
     text-decoration: none;
-    color: #f5f5dc;
+    color: white;
     padding: 0 10px;
 }
 
